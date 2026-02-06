@@ -35,7 +35,7 @@ py.extension_module(
 
 # Install the Python package files
 py.install_sources(
-  'hellopyfortran/__init__.py',
-  'hellopyfortran/__main__.py',
+  'src/hellopyfortran/__init__.py',
+  'src/hellopyfortran/__main__.py',
   subdir: 'hellopyfortran',
 )
