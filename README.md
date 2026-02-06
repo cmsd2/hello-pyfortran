@@ -7,13 +7,18 @@ A minimal example of calling Fortran from Python using NumPy's f2py and meson-py
 Requires a Fortran compiler (e.g. `gfortran`) and Python 3.12+.
 
 ```bash
-uv pip install -e . --no-build-isolation
+uv pip install .
+```
+### Building a wheel
+
+```bash
+uv build
 ```
 
 ## Running
 
 ```bash
-uv run hellopyfortran
+uv run --no-project python -m hellopyfortran
 ```
 
 ## How it works
