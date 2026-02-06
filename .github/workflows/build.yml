@@ -36,4 +36,4 @@ jobs:
         run: uv pip install .
 
       - name: Run hellopyfortran
-        run: uv run hellopyfortran
+        run: uv run python -m hellopyfortran
