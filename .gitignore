@@ -15,3 +15,6 @@ builddir/
 # Generated build artifacts
 *.so
 *.dylib
+
+# Generated f2py signature files
+*.pyf
